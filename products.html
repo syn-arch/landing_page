@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/assets/css/app.css" />
+    <link
+      rel="stylesheet"
+      href="/node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand text-white" href="#">Brand</a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="icon-button-toggle fa fa-bars text-white"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a href="/" class="nav-link text-white active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="/products.html" class="nav-link text-white">Products</a>
+            </li>
+            <li class="nav-item">
+              <a href="/about.html" class="nav-link text-white">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="/contact.html" class="nav-link text-white">Contact</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="" class="nav-link text-white"
+                ><i class="fa fa-search"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link text-white"
+                ><i class="fa fa-shopping-cart"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link text-white"
+                ><i class="fas fa-sign-in-alt"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- hero -->
+    <div class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 hero-text text-center text-white">
+            <div class="pt-4"></div>
+            <h2 class="pt-5">Products</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end hero -->
+
+    <!-- product list -->
+    <div class="product-list mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <h4>Category</h4>
+            <ul class="list-group">
+              <li class="list-group-item active" aria-current="true">
+                An active item
+              </li>
+              <li class="list-group-item">A second item</li>
+              <li class="list-group-item">A third item</li>
+              <li class="list-group-item">A fourth item</li>
+              <li class="list-group-item">And a fifth one</li>
+            </ul>
+            <h4 class="mt-5">Sort By</h4>
+            <ul class="list-group">
+              <li class="list-group-item">A second item</li>
+              <li class="list-group-item">A third item</li>
+              <li class="list-group-item">A fourth item</li>
+              <li class="list-group-item">And a fifth one</li>
+            </ul>
+          </div>
+          <div class="col-md-10">
+            <div class="row mt-5">
+              <div class="col-md-3">
+                <div class="product">
+                  <img
+                    src="/assets/img/product1.jpg"
+                    alt="       "
+                    class="img-fluid product-img"
+                  />
+                  <div class="product-stars mt-2">
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-secondary"></i>
+                  </div>
+                  <a
+                    href="/product.html"
+                    class="text-decoration-none text-dark"
+                  >
+                    <h5 class="product-text mt-3">Product 1</h5>
+                  </a>
+                  <div class="product-price d-flex justify-content-center">
+                    <div class="product-price-1 mx-2">Rp.50.000,00</div>
+                    <div
+                      class="
+                        product-price-1
+                        mx-2
+                        text-muted text-decoration-line-through
+                      "
+                    >
+                      Rp.65.000,00
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="product">
+                  <img
+                    src="/assets/img/product2.jpg"
+                    alt="       "
+                    class="img-fluid product-img"
+                  />
+                  <div class="product-stars mt-2">
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-secondary"></i>
+                  </div>
+                  <a
+                    href="/product.html"
+                    class="text-decoration-none text-dark"
+                  >
+                    <h5 class="product-text mt-3">Product 2</h5>
+                  </a>
+                  <div class="product-price d-flex justify-content-center">
+                    <div class="product-price-1 mx-2">Rp.50.000,00</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="product">
+                  <img
+                    src="/assets/img/product5.jpg"
+                    alt="       "
+                    class="img-fluid product-img"
+                  />
+                  <div class="product-stars mt-2">
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-secondary"></i>
+                  </div>
+                  <a
+                    href="/product.html"
+                    class="text-decoration-none text-dark"
+                  >
+                    <h5 class="product-text mt-3">Product 5</h5>
+                  </a>
+                  <div class="product-price d-flex justify-content-center">
+                    <div class="product-price-1 mx-2">Rp.50.000,00</div>
+                    <div
+                      class="
+                        product-price-1
+                        mx-2
+                        text-muted text-decoration-line-through
+                      "
+                    >
+                      Rp.65.000,00
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="product">
+                  <img
+                    src="/assets/img/product4.jpg"
+                    alt="       "
+                    class="img-fluid product-img"
+                  />
+                  <div class="product-stars mt-2">
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-secondary"></i>
+                  </div>
+                  <a
+                    href="/product.html"
+                    class="text-decoration-none text-dark"
+                  >
+                    <h5 class="product-text mt-3">Product 4</h5>
+                  </a>
+                  <div class="product-price d-flex justify-content-center">
+                    <div class="product-price-1 mx-2">Rp.50.000,00</div>
+                    <div
+                      class="
+                        product-price-1
+                        mx-2
+                        text-muted text-decoration-line-through
+                      "
+                    >
+                      Rp.65.000,00
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="col-md-3">
+                <div class="product">
+                  <img
+                    src="/assets/img/product1.jpg"
+                    alt="       "
+                    class="img-fluid product-img"
+                  />
+                  <div class="product-stars mt-2">
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-secondary"></i>
+                  </div>
+                  <a
+                    href="/product.html"
+                    class="text-decoration-none text-dark"
+                  >
+                    <h5 class="product-text mt-3">Product 1</h5>
+                  </a>
+                  <div class="product-price d-flex justify-content-center">
+                    <div class="product-price-1 mx-2">Rp.50.000,00</div>
+                    <div
+                      class="
+                        product-price-1
+                        mx-2
+                        text-muted text-decoration-line-through
+                      "
+                    >
+                      Rp.65.000,00
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="product">
+                  <img
+                    src="/assets/img/product2.jpg"
+                    alt="       "
+                    class="img-fluid product-img"
+                  />
+                  <div class="product-stars mt-2">
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-secondary"></i>
+                  </div>
+                  <a
+                    href="/product.html"
+                    class="text-decoration-none text-dark"
+                  >
+                    <h5 class="product-text mt-3">Product 2</h5>
+                  </a>
+                  <div class="product-price d-flex justify-content-center">
+                    <div class="product-price-1 mx-2">Rp.50.000,00</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="product">
+                  <img
+                    src="/assets/img/product5.jpg"
+                    alt="       "
+                    class="img-fluid product-img"
+                  />
+                  <div class="product-stars mt-2">
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-secondary"></i>
+                  </div>
+                  <a
+                    href="/product.html"
+                    class="text-decoration-none text-dark"
+                  >
+                    <h5 class="product-text mt-3">Product 5</h5>
+                  </a>
+                  <div class="product-price d-flex justify-content-center">
+                    <div class="product-price-1 mx-2">Rp.50.000,00</div>
+                    <div
+                      class="
+                        product-price-1
+                        mx-2
+                        text-muted text-decoration-line-through
+                      "
+                    >
+                      Rp.65.000,00
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="product">
+                  <img
+                    src="/assets/img/product4.jpg"
+                    alt="       "
+                    class="img-fluid product-img"
+                  />
+                  <div class="product-stars mt-2">
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-secondary"></i>
+                  </div>
+                  <a
+                    href="/product.html"
+                    class="text-decoration-none text-dark"
+                  >
+                    <h5 class="product-text mt-3">Product 4</h5>
+                  </a>
+                  <div class="product-price d-flex justify-content-center">
+                    <div class="product-price-1 mx-2">Rp.50.000,00</div>
+                    <div
+                      class="
+                        product-price-1
+                        mx-2
+                        text-muted text-decoration-line-through
+                      "
+                    >
+                      Rp.65.000,00
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="col-md-3">
+                <div class="product">
+                  <img
+                    src="/assets/img/product1.jpg"
+                    alt="       "
+                    class="img-fluid product-img"
+                  />
+                  <div class="product-stars mt-2">
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-secondary"></i>
+                  </div>
+                  <a
+                    href="/product.html"
+                    class="text-decoration-none text-dark"
+                  >
+                    <h5 class="product-text mt-3">Product 1</h5>
+                  </a>
+                  <div class="product-price d-flex justify-content-center">
+                    <div class="product-price-1 mx-2">Rp.50.000,00</div>
+                    <div
+                      class="
+                        product-price-1
+                        mx-2
+                        text-muted text-decoration-line-through
+                      "
+                    >
+                      Rp.65.000,00
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="product">
+                  <img
+                    src="/assets/img/product2.jpg"
+                    alt="       "
+                    class="img-fluid product-img"
+                  />
+                  <div class="product-stars mt-2">
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-secondary"></i>
+                  </div>
+                  <a
+                    href="/product.html"
+                    class="text-decoration-none text-dark"
+                  >
+                    <h5 class="product-text mt-3">Product 2</h5>
+                  </a>
+                  <div class="product-price d-flex justify-content-center">
+                    <div class="product-price-1 mx-2">Rp.50.000,00</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="product">
+                  <img
+                    src="/assets/img/product5.jpg"
+                    alt="       "
+                    class="img-fluid product-img"
+                  />
+                  <div class="product-stars mt-2">
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-secondary"></i>
+                  </div>
+                  <a
+                    href="/product.html"
+                    class="text-decoration-none text-dark"
+                  >
+                    <h5 class="product-text mt-3">Product 5</h5>
+                  </a>
+                  <div class="product-price d-flex justify-content-center">
+                    <div class="product-price-1 mx-2">Rp.50.000,00</div>
+                    <div
+                      class="
+                        product-price-1
+                        mx-2
+                        text-muted text-decoration-line-through
+                      "
+                    >
+                      Rp.65.000,00
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="product">
+                  <img
+                    src="/assets/img/product4.jpg"
+                    alt="       "
+                    class="img-fluid product-img"
+                  />
+                  <div class="product-stars mt-2">
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-secondary"></i>
+                  </div>
+                  <a
+                    href="/product.html"
+                    class="text-decoration-none text-dark"
+                  >
+                    <h5 class="product-text mt-3">Product 4</h5>
+                  </a>
+                  <div class="product-price d-flex justify-content-center">
+                    <div class="product-price-1 mx-2">Rp.50.000,00</div>
+                    <div
+                      class="
+                        product-price-1
+                        mx-2
+                        text-muted text-decoration-line-through
+                      "
+                    >
+                      Rp.65.000,00
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="col-md-3">
+                <div class="product">
+                  <img
+                    src="/assets/img/product1.jpg"
+                    alt="       "
+                    class="img-fluid product-img"
+                  />
+                  <div class="product-stars mt-2">
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-secondary"></i>
+                  </div>
+                  <a
+                    href="/product.html"
+                    class="text-decoration-none text-dark"
+                  >
+                    <h5 class="product-text mt-3">Product 1</h5>
+                  </a>
+                  <div class="product-price d-flex justify-content-center">
+                    <div class="product-price-1 mx-2">Rp.50.000,00</div>
+                    <div
+                      class="
+                        product-price-1
+                        mx-2
+                        text-muted text-decoration-line-through
+                      "
+                    >
+                      Rp.65.000,00
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="product">
+                  <img
+                    src="/assets/img/product2.jpg"
+                    alt="       "
+                    class="img-fluid product-img"
+                  />
+                  <div class="product-stars mt-2">
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-secondary"></i>
+                  </div>
+                  <a
+                    href="/product.html"
+                    class="text-decoration-none text-dark"
+                  >
+                    <h5 class="product-text mt-3">Product 2</h5>
+                  </a>
+                  <div class="product-price d-flex justify-content-center">
+                    <div class="product-price-1 mx-2">Rp.50.000,00</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="product">
+                  <img
+                    src="/assets/img/product5.jpg"
+                    alt="       "
+                    class="img-fluid product-img"
+                  />
+                  <div class="product-stars mt-2">
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-secondary"></i>
+                  </div>
+                  <a
+                    href="/product.html"
+                    class="text-decoration-none text-dark"
+                  >
+                    <h5 class="product-text mt-3">Product 5</h5>
+                  </a>
+                  <div class="product-price d-flex justify-content-center">
+                    <div class="product-price-1 mx-2">Rp.50.000,00</div>
+                    <div
+                      class="
+                        product-price-1
+                        mx-2
+                        text-muted text-decoration-line-through
+                      "
+                    >
+                      Rp.65.000,00
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="product">
+                  <img
+                    src="/assets/img/product4.jpg"
+                    alt="       "
+                    class="img-fluid product-img"
+                  />
+                  <div class="product-stars mt-2">
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-secondary"></i>
+                  </div>
+                  <a
+                    href="/product.html"
+                    class="text-decoration-none text-dark"
+                  >
+                    <h5 class="product-text mt-3">Product 4</h5>
+                  </a>
+                  <div class="product-price d-flex justify-content-center">
+                    <div class="product-price-1 mx-2">Rp.50.000,00</div>
+                    <div
+                      class="
+                        product-price-1
+                        mx-2
+                        text-muted text-decoration-line-through
+                      "
+                    >
+                      Rp.65.000,00
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-4"></div>
+            <div class="row">
+              <div class="col-md-12 d-flex justify-content-center">
+                <nav aria-label="Page navigation">
+                  <ul class="pagination">
+                    <li class="page-item">
+                      <a class="page-link" href="#">Previous</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="#">1</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="#">2</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="#">3</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="#">Next</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end product list -->
+
+    <!-- footer -->
+    <footer class="bg-light mt-5">
+      <div class="container">
+        <div class="row py-4">
+          <div class="col-md-4">
+            <h3>Brand</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+              quam consequuntur tempora aspernatur vitae dolorum doloremque
+              velit.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h3>Menu</h3>
+            <ul>
+              <li>Home</li>
+              <li>Products</li>
+              <li>About</li>
+              <li>Login</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h3>Subscribe</h3>
+            <p>Subscribe to our newsletter</p>
+            <form action="">
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="yourmail@example.com"
+                />
+                <span class="input-group-text" id="basic-addon2"
+                  >subscribe</span
+                >
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+
+    <script src="/node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/node_modules/@fortawesome/fontawesome-free/js/all.min.js"></script>
+    <script src="/assets/js/app.js"></script>
+  </body>
+</html>
